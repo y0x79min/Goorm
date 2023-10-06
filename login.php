@@ -96,14 +96,12 @@
 				else{
 					
 					$conn = mysqli_connect('localhost', 'root', '', 'test');
-					if (mysqli_connect_errno())
-					{
-						exit;
-					}else{
+					if (mysqli_connect_errno())	{exit;}
+					else{
 						$sql = "SELECT * FROM users WHERE id = '". $_POST['userid']."'";
 						$result = mysqli_query($conn, $sql);
 						$row = mysqli_fetch_array($result);
-						echo '<script>console.log("'.md5($_POST['password']).'")</script>';
+						if (!isset($row)){echo "<script>alert('로그인 실패');</script>"; return;}
 						if( $row['pw'] === md5($_POST['password'])){
 							
 							srand((double)microtime()*1000000); 
@@ -162,3 +160,4 @@
 		}
 	}
 ?>
+
