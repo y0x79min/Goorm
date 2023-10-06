@@ -86,6 +86,19 @@
         ![Untitled 13](https://github.com/y0x79min/Goorm/assets/146512434/bca0c5e2-bb0a-439d-a006-cbc83ac57f86)
         ![Untitled 14](https://github.com/y0x79min/Goorm/assets/146512434/fac877fa-7670-4cf5-aeb3-5fa4eda6354d)
 
-        
-    
+
     아이디가 틀렸는지 비밀번호가 틀렸는지는 둘 중 하나는 맞다는 것을 유추 할 수도 있으니 보안이 약해질 수 있다고 생각했다.
+
+  
+- 메인페이지( 게시글 리스트 )
+      ![Untitled 1](https://github.com/y0x79min/Goorm/assets/146512434/04f24ae4-5ee0-4173-9639-63e13d996378)
+
+
+- 글 작성 페이지 write.php , write2.php
+    ![Untitled 2](https://github.com/y0x79min/Goorm/assets/146512434/94044639-864d-43b5-91a7-8692864ceec1)
+
+- 글 읽기 페이지 view.php
+    ![Untitled 3](https://github.com/y0x79min/Goorm/assets/146512434/c8168e5e-3ded-4aca-9823-ceba35a66acc)
+
+- 댓글 기능과 삭제 기능까지!
+    
