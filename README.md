@@ -11,4 +11,4 @@
 | 게시글 작성 | [write.php](write.php) |
 | 게시글과 댓글 보기 | [view.php](view.php) |
 
-이 실습의 PHP 화면 일부는 이후 학부 웹 침입 탐지 프로젝트에서 요청을 받아 보는 웹 화면에도 사용했습니다.
+이 실습의 PHP 화면 일부는 이후 학부 웹 침입 탐지 프로젝트에서 요청을 받아 보는 웹 화면에도 사용했습니다. CNN 모델과 요청 로그 화면은 [웹 침입 탐지 저장소](https://github.com/y0x79min/AI_Web_Intrusion_Detection)에서 볼 수 있습니다.
